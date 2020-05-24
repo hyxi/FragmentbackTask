@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CustomTouchEventActivity">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="事件处理"
+        android:layout_margin="10dp"
+        />
+
+    <com.example.user.fragmentbacktask.event.CustomViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/color_8A97A6"
+        >
+
+        <com.example.user.fragmentbacktask.event.CustomView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/color_6871DC"
+            />
+
+    </com.example.user.fragmentbacktask.event.CustomViewGroup>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+    <TextView
+        android:id="@+id/cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:padding="10dp"
+        android:text="取消"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:padding="10dp"
+
+        android:text="确定"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"/>
+
+    <com.fang.chinaindex.evaluate.evaluation.ui.widget.bottompickerdialog.costompicker.CustomPicker
+        android:id="@+id/time_picker"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cancle">
+    </com.fang.chinaindex.evaluate.evaluation.ui.widget.bottompickerdialog.costompicker.CustomPicker>
+
+</RelativeLayout>

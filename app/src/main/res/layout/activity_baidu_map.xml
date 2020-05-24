@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.map.BMapSearchActivity">
+
+    <RelativeLayout
+        android:id="@+id/ll_head"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/main_tab_bar_bg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_back_n"
+            android:textColor="@color/header_btn_text" />
+
+        <TextView
+            android:id="@+id/tv_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="位置"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="发送"
+            android:textColor="@color/gray_news"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/v_divider"
+        style="@style/divider"
+        android:layout_below="@+id/ll_head"
+        android:background="@color/gray_999" />
+
+    <RelativeLayout
+        android:id="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/v_divider"
+        android:background="@color/gray_999"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_position_search"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@+id/tv_search_cancel"
+            android:background="@drawable/home_search_background"
+            android:cursorVisible="false"
+            android:drawableLeft="@mipmap/search_right_icon"
+            android:drawablePadding="5dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="搜索地点"
+            android:paddingLeft="5dp"
+            android:textColor="@color/gray_888"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_clear_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/et_position_search"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:src="@mipmap/close" />
+
+        <TextView
+            android:id="@+id/tv_search_cancel"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="取消"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_search"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/fl_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+
+            <com.baidu.mapapi.map.MapView
+                android:id="@+id/map_view_chat_position"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true" />
+
+            <TextView
+                android:id="@+id/tv_reset_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_map_location" />
+
+            <ImageView
+                android:id="@+id/iv_location_poi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:src="@mipmap/chat_location_poi" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_pos_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <ListView
+                android:id="@+id/lv_postion_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7F7F7"
+                android:cacheColorHint="#0000"
+                android:listSelector="@color/transparent"
+                android:scrollbarStyle="outsideOverlay"
+                android:transcriptMode="normal"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_bottom_refresh"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="center"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/loction_refresh" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

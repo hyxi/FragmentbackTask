@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SmoothAppBarLayout">
+        <attr name="sabl_view_pager_id" format="reference" />
+        <attr name="sabl_target_id" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SmoothCollapsingToolbarLayout">
+        <attr name="sctl_collapsed_offsetX" format="dimension|reference" />
+        <attr name="sctl_collapsed_offsetY" format="dimension|reference" />
+        <attr name="sctl_collapsed_avatarSize" format="dimension|reference" />
+        <attr name="sctl_collapsed_titleTextSize" format="dimension|reference" />
+        <attr name="sctl_collapsed_subtitleTextSize" format="dimension|reference" />
+        <attr name="sctl_expanded_offsetX" format="dimension|reference" />
+        <attr name="sctl_expanded_offsetY" format="dimension|reference" />
+        <attr name="sctl_expanded_avatarSize" format="dimension|reference" />
+        <attr name="sctl_expanded_titleTextSize" format="dimension|reference" />
+        <attr name="sctl_expanded_subtitleTextSize" format="dimension|reference" />
+        <attr name="sctl_avatar_id" format="reference" />
+        <attr name="sctl_title_id" format="reference" />
+        <attr name="sctl_subtitle_id" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="wheel">
+        <attr name="lineSplitHeight" format="reference|integer" />
+        <attr name="textColorFirst" format="reference|color" />
+        <attr name="textColorSecond" format="reference|color" />
+        <attr name="textColorThird" format="reference|color" />
+        <attr name="splitLineColor" format="reference|color" />
+        <attr name="textWheelSize" format="reference|integer" />
+        <attr name="textGravity">
+            <flag name="left" value="-1" />
+            <flag name="center" value="0" />
+            <flag name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="kswThumbDrawable" format="reference"/>
+        <attr name="kswThumbColor" format="color|reference"/>
+        <attr name="kswThumbMargin" format="dimension|reference"/>
+        <attr name="kswThumbMarginTop" format="dimension|reference"/>
+        <attr name="kswThumbMarginBottom" format="dimension|reference"/>
+        <attr name="kswThumbMarginLeft" format="dimension|reference"/>
+        <attr name="kswThumbMarginRight" format="dimension|reference"/>
+        <attr name="kswThumbWidth" format="dimension|reference"/>
+        <attr name="kswThumbHeight" format="dimension|reference"/>
+        <attr name="kswThumbRadius" format="dimension|reference"/>
+        <attr name="kswBackRadius" format="dimension|reference"/>
+        <attr name="kswBackDrawable" format="reference"/>
+        <attr name="kswBackColor" format="color|reference"/>
+        <attr name="kswFadeBack" format="boolean"/>
+        <attr name="kswBackMeasureRatio" format="float"/>
+        <attr name="kswAnimationDuration" format="integer"/>
+        <attr name="kswTintColor" format="color|reference"/>
+        <attr name="kswTextOn" format="string"/>
+        <attr name="kswTextOff" format="string"/>
+        <attr name="kswTextMarginH" format="dimension"/>
+        <attr name="kswAutoAdjustTextPosition" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="VPLayout">
+        <attr name="delay_time" format="integer" />
+        <attr name="scroll_time" format="integer" />
+        <attr name="is_auto_play" format="boolean" />
+        <attr name="indicator_width" format="dimension" />
+        <attr name="indicator_height" format="dimension" />
+        <attr name="indicator_margin" format="dimension" />
+        <attr name="indicator_drawable_selected" format="reference" />
+        <attr name="indicator_drawable_unselected" format="reference" />
+        <attr name="layout_id" format="reference"/>
+        <!--<attr name="indicator_animator" format="reference" />-->
+        <!--<attr name="indicator_animator_reverse" format="reference" />-->
+    </declare-styleable>
+
+    <declare-styleable name="DottedLineView">
+        <attr name="line_stroke_height" format="dimension"/>
+        <attr name="line_color" format="color"/>
+        <attr name="dotted_line_width" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="KrShapeButton">
+        <!--shape模式-->
+        <attr name="kr_shapeMode" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+            <enum name="line" value="2" />
+            <enum name="ring" value="3" />
+        </attr>
+        <attr name="kr_strokeWidth" format="dimension"/>
+        <attr name="kr_strokeColor" format="color"/>
+        <attr name="kr_fillColor" format="color"/>
+        <attr name="kr_cornerRadius" format="dimension"/>
+        <!--是否开启动效-->
+        <attr name="kr_activeEnable" format="boolean" />
+        <!--圆角位置-->
+        <attr name="kr_cornerPosition">
+            <flag name="topLeft" value="1" />
+            <flag name="topRight" value="2" />
+            <flag name="bottomRight" value="4" />
+            <flag name="bottomLeft" value="8" />
+        </attr>
+
+        <!--渐变开始颜色-->
+        <attr name="kr_startColor" format="color" />
+        <!--渐变结束颜色-->
+        <attr name="kr_endColor" format="color" />
+        <!--渐变方向-->
+        <attr name="kr_orientation" format="enum">
+            <enum name="TOP_BOTTOM" value="0" />
+            <enum name="LEFT_RIGHT" value="1" />
+        </attr>
+
+        <attr name="kr_pressColor" format="color" />
+        <!--drawable位置-->
+        <attr name="kr_drawablePosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+
+        <attr name="kr_gravity" format="enum">
+            <enum name="center" value="-1" />
+            <enum name="left" value="0" />
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="MarqueeView">
+        <attr name="marqueeAnimDuration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SimpleMarqueeView">
+        <attr name="smvTextColor" format="reference|color" />
+        <attr name="smvTextSize" format="dimension" />
+        <!--https://github.com/android/platform_frameworks_base/blob/master/core/res/res/values/attrs.xml-->
+        <attr name="smvTextGravity">
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30" />
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50" />
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03" />
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05" />
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10" />
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70" />
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01" />
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07" />
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11" />
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77" />
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the vertical gravity: a top gravity will clip the bottom
+                 edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            <flag name="clip_vertical" value="0x80" />
+            <!-- Additional option that can be set to have the left and/or right edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the horizontal gravity: a left gravity will clip the right
+                 edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            <flag name="clip_horizontal" value="0x08" />
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003" />
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005" />
+        </attr>
+        <attr name="smvTextSingleLine" format="boolean" />
+        <!-- Where to ellipsize text. -->
+        <attr name="smvTextEllipsize">
+            <enum name="none" value="0" />
+            <enum name="start" value="1" />
+            <enum name="middle" value="2" />
+            <enum name="end" value="3" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>

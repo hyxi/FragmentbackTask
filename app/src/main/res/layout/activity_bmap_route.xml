@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.fragmentbacktask.activity.map.BMapRouteActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/mv_route"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/iv_location_poi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/chat_location_poi" />
+
+    </FrameLayout>
+
+
+<Button
+        android:id="@+id/btn_route"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="显示路线"
+        android:layout_below="@+id/fl_content"
+        />
+
+    <Button
+        android:id="@+id/btn_open_bdmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="打开百度地图"
+        android:layout_below="@+id/btn_route"
+        />
+
+</RelativeLayout>

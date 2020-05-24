@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="06-13" />
+
+    <LinearLayout
+        android:id="@+id/ll_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:minHeight="65dp"
+        android:layout_toRightOf="@+id/tv_time"
+        android:orientation="vertical">
+
+        <com.example.user.fragmentbacktask.view.DottedLineView
+            android:id="@+id/dot_top_line"
+            android:layout_width="1dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            app:line_color="#b3c"
+            app:line_stroke_height="2dp"/>
+
+        <View
+            android:id="@+id/dot"
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:background="@drawable/shape_dot_b3c0ce" />
+
+        <com.example.user.fragmentbacktask.view.DottedLineView
+            android:id="@+id/dot_bottom_line"
+            android:layout_width="1dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            app:line_color="#b3c"
+            app:line_stroke_height="2dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ll_line"
+        tools:text="你提交的纠错信息受理完成。你提交的纠错信息受理完成" />
+
+</RelativeLayout>

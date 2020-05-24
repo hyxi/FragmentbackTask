@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.fragmentbacktask.activity.BounceNavLayoutActivity">
+
+    <com.example.user.fragmentbacktask.view.customview.BounceStickyNavLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/id_bounce_topview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4400ff00">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:gravity="center"
+                android:text="软件介绍"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <com.example.user.fragmentbacktask.view.SimpleViewPagerIndicator
+            android:id="@+id/id_bounce_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffffff"/>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/id_bounce_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#44ff0000"/>
+    </com.example.user.fragmentbacktask.view.customview.BounceStickyNavLayout>
+</RelativeLayout>

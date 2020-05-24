@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="#ffffff">
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:minHeight="35dp"
+        android:paddingLeft="5dp"
+        android:maxLines="5"
+        android:background="@drawable/shape_image_border"
+        android:hint="回复张三:"
+        android:textSize="14sp"
+        android:textColor="#888888"
+        />
+
+    <TextView
+        android:id="@+id/tv_send"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:text="发送"
+        android:layout_toRightOf="@+id/et_input"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/shape_image_border"
+        />
+
+
+</RelativeLayout>

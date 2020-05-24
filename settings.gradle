@@ -1,0 +1,7 @@
+include ':app'
+include ':library'
+include ':librarytwo'
+include ':apt_process'
+include ':apt_api'
+include ':apt_annotation'
+include ':iconlib'

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.fragmentbacktask.activity.TestGlideActivity">
+
+    <FrameLayout
+        android:id="@+id/header_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.user.fragmentbacktask.view.AutoScrollViewPager
+            android:id="@+id/vp_turn_ad"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"/>
+
+        <LinearLayout
+            android:id="@+id/ll_ad_mark"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:paddingBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="bottom|center"
+            android:orientation="horizontal"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/header_layout"
+        android:layout_centerHorizontal="true"
+        android:text="tes"/>
+
+</RelativeLayout>

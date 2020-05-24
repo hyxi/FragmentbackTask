@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:text="测试头布局"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="2dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:background="@color/blue_ob1" />
+
+    <View
+        android:id="@+id/dot"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_below="@+id/line1"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/dot" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/ll_content"
+        android:layout_below="@+id/dot"
+        android:layout_marginLeft="10dp"
+        android:background="@color/blue_ob1" />
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+
+        <FrameLayout
+            android:layout_width="240dp"
+            android:layout_height="32dp"
+            android:background="@drawable/shape_segment_tab_normal"
+            android:layout_centerInParent="true">
+            <TextView
+                android:id="@+id/tv_tabline"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_segment_float_btn"
+                />
+            <RadioGroup
+                android:id="@+id/rg_evaluate_list"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_evaluate_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="全部"
+                    android:textColor="@drawable/navig_evaluatelist_tab_text_color"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_evaluate_middle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="待回价"
+                    android:textColor="@drawable/navig_evaluatelist_tab_text_color"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_evaluate_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="回价"
+                    android:textColor="@drawable/navig_evaluatelist_tab_text_color"
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+        </FrameLayout>
+    </RelativeLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_evaluate_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+</LinearLayout>

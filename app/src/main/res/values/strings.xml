@@ -1,0 +1,27 @@
+<resources>
+    <string name="more">加载更多</string>
+    <string name="downloading">正在下载…</string>
+
+    <string name="refresh">点击加载</string>
+    <string name="load_error">加载数据失败,请检查您的网络</string>
+    <string name="app_name_debug">fragmenttask_debug</string>
+    <string name="app_name">fragmenttask_realease</string>
+
+    <string name="large_text">AppBarLayout是一个实现了很多材料设计特性的垂直的LinearLayout，它能响应滑动事件。必须在它的子view上设置app:layout_scrollFlags属性或者是在代码中调用setScrollFlags()设置这个属性。这个类的特性强烈依赖于它是否是一个CoordinatorLayout的直接子view，如果不是，那么它的很多特性不能够使用。AppBarLayout需要一个具有滑动属性的兄弟节点view，并且在这个兄弟节点View中指定behavior属性为AppBarLayout.ScrollingViewBehavior的类实例，可以使用一个内置的string表示这个默认的实例@string/appbar_scrolling_view_behavior。
+
+AppBarLayout的子布局有5种滚动标识(上面代码CollapsingToolbarLayout中配置的app:layout_scrollFlags属性)：
+
+scroll：所有想滚动出屏幕的view都需要设置这个flag， 没有设置这个flag的view将被固定在屏幕顶部。
+enterAlways：这个flag让任意向下的滚动都会导致该view变为可见，启用快速“返回模式”。
+
+作者：尹star
+链接：https://www.jianshu.com/p/5287d090e777
+來源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。</string>
+
+    <string-array name="index_titles">
+        <item>浏览器demo</item>
+        <item>全屏播放</item>
+        <item>文件选择器</item>
+    </string-array>
+</resources>

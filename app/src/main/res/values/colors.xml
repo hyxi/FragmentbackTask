@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DE3438</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryLight">#fbdcdc</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="color_8A97A6">#8A97A6</color>
+    <color name="color_868DE3">#868DE3</color>
+    <color name="color_F9607D">#F9607D</color>
+
+    <color name="list_item_selected">#ffe6e6e6</color>
+    <color name="alpha_white">#f0ffffff</color>
+    <color name="divider">#BFBFBF</color>
+    <color name="dep_gray">#e8e8e8</color>
+    <color name="gray_news">#666666</color>
+    <color name="gray_999">#d2d2d2</color>
+    <color name="dividerline">#E0E0E0</color>
+    <color name="gray_f8">#f8f8f8</color>
+    <color name="light_purple">#A0A0FF</color>
+    <color name="gray_888">#888888</color>
+    <color name="shape_bg">#ffcccccc</color>
+    <color name="list_item_normal">#ffffffff</color>
+
+    <color name="fleet_gray">#888888</color>
+    <color name="gray_8e">#8e8e91</color>
+    <color name="red_new">#df3031</color>
+    <color name="tab_text_red">#DE3437</color>
+    <color name="tab_dark_red">#800000</color>
+
+    <color name="light_blue">#52BDFB</color>
+    <color name="main_tab_bar_bg">#f9f9f9</color>
+    <color name="header_btn_text">#ffe6ecef</color>
+    <color name="black">#ff000000</color>
+    <color name="loading_error_tv">#ff666666</color>
+
+    <color name="color_e7e7e7">#e7e7e7</color>
+    <color name="color_B3C0CEC">#B3C0CE</color>
+    <color name="color_6871DC">#6871DC</color>
+    <color name="color_181E26">#181E26</color>
+    <color name="color_6871DC_50">#806871DC</color>
+    <!-- 时间选择器 -->
+    <color name="split_line_gray">#B8B8B8</color>
+    <color name="picker_bar_bg">#F5F5F5</color>
+    <color name="piclist_make_sure_tvcolor">#96B5D2</color>
+
+    <color name="translucent_80_dark">#cc000000</color>
+    <color name="light_s_gray">#cccccc</color>
+    <color name="deep_s_gray">#454545</color>
+    <color name="deep_ss_gray">#333333</color>
+    <color name="edit_hint">#d2d2d2</color>
+    <color name="light_gray">#bfbfbf</color>
+
+    <color name="ksw_md_ripple_normal">#1E000000</color>
+    <color name="ksw_md_ripple_checked">#33019285</color>
+    <color name="ksw_md_solid_shadow">#33000000</color>
+    <color name="ksw_md_solid_normal">#ECECEC</color>
+    <color name="ksw_md_solid_checked">#019285</color>
+    <color name="ksw_md_solid_disable">#FFFFFF</color>
+    <color name="ksw_md_solid_checked_disable">#aaaaaa</color>
+
+    <color name="blue_ob1">#00B162</color>
+</resources>

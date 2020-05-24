@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.fragmentbacktask.activity.TestModeActivity">
+
+    <ImageView
+        android:id="@+id/mapview_mode"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/php"
+        ></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/chat_location_poi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        />
+
+    <Button
+        android:id="@+id/loc"
+        android:layout_below="@id/mapview_mode"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="合并"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

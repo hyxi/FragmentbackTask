@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="titleText" format="string" />
+    <attr name="testTextColor" format="color" />
+    <attr name="titleTextSize" format="dimension" />
+    <attr name="image" format="reference" />
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0" />
+        <enum name="center" value="1" />
+    </attr>
+    <declare-styleable name="CustomTitleView">
+        <attr name="titleText" />
+        <attr name="testTextColor" />
+        <attr name="titleTextSize" />
+        <attr name="image" />
+        <attr name="imageScaleType" />
+    </declare-styleable>
+//自定义音量调节
+    <attr name="firstColor" format="color" />
+    <attr name="secondColor" format="color" />
+    <attr name="circleWidth" format="dimension" />
+    <attr name="dotCount" format="integer" />
+    <attr name="splitSize" format="integer" />
+    <attr name="bg" format="reference"></attr>
+
+    <declare-styleable name="CustomVolumControlBar">
+        <attr name="firstColor" />
+        <attr name="secondColor" />
+        <attr name="circleWidth" />
+        <attr name="dotCount" />
+        <attr name="splitSize" />
+        <attr name="bg" />
+    </declare-styleable>
+</resources>
