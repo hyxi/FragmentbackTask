@@ -1,0 +1,4 @@
+# Referenced at /Users/hyxi/workspace/ASworkspace/ReferProject/FragmentbackTask/app/build/intermediates/merged_manifests/debug/x86/AndroidManifest.xml:27
+-keep class com.example.user.fragmentbacktask.TestApplication { <init>(); }
+# Referenced at /Users/hyxi/workspace/ASworkspace/ReferProject/FragmentbackTask/app/build/intermediates/merged_manifests/debug/x86/AndroidManifest.xml:27
+-keep class com.example.user.fragmentbacktask.whateverString { <init>(); }

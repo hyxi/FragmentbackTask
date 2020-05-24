@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="bg"/>
+    <attr format="dimension" name="circleWidth"/>
+    <attr format="integer" name="dotCount"/>
+    <attr format="color" name="firstColor"/>
+    <attr format="reference" name="image"/>
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0"/>
+        <enum name="center" value="1"/>
+    </attr>
+    <attr format="color" name="secondColor"/>
+    <attr format="integer" name="splitSize"/>
+    <attr format="color" name="testTextColor"/>
+    <attr format="string" name="titleText"/>
+    <attr format="dimension" name="titleTextSize"/>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <declare-styleable name="CustomTitleView">
+        <attr name="titleText"/>
+        <attr name="testTextColor"/>
+        <attr name="titleTextSize"/>
+        <attr name="image"/>
+        <attr name="imageScaleType"/>
+    </declare-styleable>
+    <declare-styleable name="CustomVolumControlBar">
+        <attr name="firstColor"/>
+        <attr name="secondColor"/>
+        <attr name="circleWidth"/>
+        <attr name="dotCount"/>
+        <attr name="splitSize"/>
+        <attr name="bg"/>
+    </declare-styleable>
+</resources>

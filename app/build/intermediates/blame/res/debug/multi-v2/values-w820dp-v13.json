@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hyxi/workspace/ASworkspace/ReferProject/FragmentbackTask/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/hyxi/workspace/ASworkspace/ReferProject/FragmentbackTask/app/src/main/res/values-w820dp/dimens.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "295",
+                        "endColumns": "57",
+                        "endOffsets": "348"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "642",
+                        "endColumns": "57",
+                        "endOffsets": "695"
+                    }
+                },
+                {
+                    "source": "/Users/hyxi/workspace/ASworkspace/ReferProject/FragmentbackTask/app/src/main/res/values-w820dp/attr.xml",
+                    "from": {
+                        "startLines": "23,20,21,18,5,6,19,22,3,2,4,10,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "873,729,780,636,203,248,682,826,101,55,150,375,921",
+                        "endLines": "23,20,21,18,5,9,19,22,3,2,4,16,32",
+                        "endColumns": "46,50,45,45,44,11,46,46,48,45,52,24,24",
+                        "endOffsets": "915,775,821,677,243,370,724,868,145,96,198,621,1195"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,11,12,13,14,15,17,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,96,146,191,236,280,405,451,497,545,590,700,946",
+                        "endLines": "2,3,4,5,6,10,11,12,13,14,15,23,31",
+                        "endColumns": "40,49,44,44,43,11,45,45,47,44,51,24,24",
+                        "endOffsets": "91,141,186,231,275,400,446,492,540,585,637,941,1214"
+                    }
+                }
+            ]
+        }
+    ]
+}
